@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Shop</title>
+
+    <link rel="stylesheet" href="https://bootswatch.com/5/morph/bootstrap.min.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style.css?v=6.1" /> -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+    <!-- <main class="alert alert-dismissible alert-primary offcanvas offcanvas-start" id="offcanvasNewShop" aria-labelledby="offcanvasNewShop"> -->
+            <main class="alert alert-dismissible alert-primary " id="offcanvasNewShop" aria-labelledby="offcanvasNewShop">
+
+        <!-- <div class="offcanvas-body"> -->
+            <form action="">
+                 <!-- <div class="offcanvas-header"> -->
+                <h1>Add A New Shop</h1>
+            </div>
+                <div class="form-group">
+                    <label for="exampleSelect1" class="form-label mt-4">Company Name</label>
+                    <select class="form-select" id="exampleSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="inputLocation" class="form-label mt-4">Location</label>
+                    <input type="email" class="form-control" id="inputLocation" aria-describedby="locationHelp"
+                        placeholder="Ex. Post Office - East Rutherford" />
+                    <!-- <small id="locationHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small> -->
+                </div>
+                <div class="form-group">
+                    <label for="inputDate" class="form-label mt-4">Date Performed</label>
+                    <input type="password" class="form-control" id="inputDate" placeholder="Date" />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label mt-4">Fee</label>
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label mt-4">Reimbursement Due</label>
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label mt-4">Total</label>
+                    <div class="form-group">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">$</span>
+                            <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+                            <span class="input-group-text">.00</span>
+                        </div>
+                    </div>
+                </div>
+                <fieldset class="form-group">
+                    <legend class="mt-4">Paid?</legend>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked="">
+                        <label class="form-check-label" for="flexCheckChecked">
+                            No
+                        </label>
+                    </div>
+                </fieldset>
+                <div class="form-group">
+                    <label for="inputCheckNo" class="form-label mt-4">Check No.</label>
+                    <input type="email" class="form-control" id="inputCheckNo" aria-describedby="locationHelp"
+                        placeholder="Check No." />
+                    <!-- <small id="locationHelp" class="form-text text-muted">We'll never share your email with anyone -->
+                    <!-- else.</small> -->
+                </div>
+                <div class="form-group">
+                    <label for="inputCheckDate" class="form-label mt-4">Check Date</label>
+                    <input type="email" class="form-control" id="inputCheckDate" aria-describedby="locationHelp"
+                        placeholder="Date of Check" />
+                    <!-- <small id="locationHelp" class="form-text text-muted">We'll never share your email with anyone -->
+                    <!-- else.</small> -->
+                </div>
+                <button id="submitShop" type="submit" class="btn btn-primary button">Submit</button>
+                <br>
+
+            </form>
+            <!-- <h2>Already have an account?</h2> -->
+
+        </div>
+    </main>
+</body>
+
+</html>

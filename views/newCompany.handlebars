@@ -1,0 +1,61 @@
+<form action="">
+    <h1>Add A New Company</h1>
+    <!-- <div class="form-group">
+                <label for="exampleSelect1" class="form-label mt-4">Company Name</label>
+                <select class="form-select" id="exampleSelect1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+            </div> -->
+    <div class="form-group">
+        <label for="inputLocation" class="form-label mt-4">Company Name</label>
+        <input type="text" class="form-control" id="inputCompany" aria-describedby="companyHelp"
+            placeholder="Company Name" />
+        <!-- <small id="locationHelp" class="form-text text-muted">We'll never share your email with anyone
+                    else.</small> -->
+    </div>
+    <div class="form-group">
+        <label for="inputDate" class="form-label mt-4">Payment Date</label>
+        <input type="text" class="form-control" id="inputPaymentDate" placeholder="15th" />
+    </div>
+    {{!-- <fieldset class="form-group">
+        <legend class="mt-4">Pay Pal?</legend>
+        <div class="form-check">
+            <input name="paypal" class="form-check-input" type="checkbox" value="yes" id="yesPaypal">
+            <label class="form-check-label" for="flexCheckDefault">
+                Yes
+            </label>
+        </div>
+        <div class="form-check">
+            <input name="paypal" class="form-check-input" type="checkbox" value="no" id="noPaypal" checked="checked">
+            <label class="form-check-label" for="flexCheckChecked">
+                No
+            </label>
+        </div>
+    </fieldset> --}}
+        <fieldset class="form-group">
+            <legend class="mt-4">Pay Pal?</legend>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="paypal" id="yesPaypal" value="yes"
+                    checked="">
+                <label class="form-check-label" for="yesPaypal">
+                   Yes
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="paypal" id="noPaypal" value="no">
+                <label class="form-check-label" for="noPaypal">
+                    No
+                </label>
+            </div>
+           
+        </fieldset>
+
+    <button id="submitCompany" type="submit" class="btn btn-primary button">Submit</button>
+    <br>
+
+</form>
+<script src="/assets/js/newcompany.js"></script>
